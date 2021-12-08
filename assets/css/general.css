@@ -10,7 +10,7 @@
 body {
   font-family: "Fira Sans", Arial, sans-serif;
   font-size: 1rem;
-  color: #fff;
+  color: #DEDEDE;
   background: linear-gradient(180deg, #032138 0%, #000E18 73.44%) no-repeat;
 }
 
@@ -36,4 +36,9 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }

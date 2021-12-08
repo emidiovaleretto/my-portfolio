@@ -1,0 +1,30 @@
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.heading-nav a {
+  color: #717171;
+}
+
+.heading-nav .active {
+  font-weight: bold;
+  color: #DEDEDE;
+}
+
+.heading-nav .btn__cta {
+  background: #FF4C29;
+  border: 1px solid #FF4521;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #061C2C;
+  font-weight: bold;
+}
