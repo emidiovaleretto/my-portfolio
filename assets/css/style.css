@@ -15,6 +15,7 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   font-size: 1rem;
   color: var(--white);
+  background: linear-gradient(180deg, #032138 0%, #000E18 73.44%) no-repeat;
 }
 
 h1,
