@@ -53,6 +53,7 @@ img {
   line-height: 1;
   font-weight: bold;
   text-transform: uppercase;
+  margin-left: 80px;
 }
 
 @media (max-width: 800px) {
