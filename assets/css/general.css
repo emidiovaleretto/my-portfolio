@@ -12,6 +12,7 @@ body {
   font-size: 1rem;
   color: #DEDEDE;
   background: url("/assets/img/bg.svg"), linear-gradient(180deg, #032138 0%, #000E18 73.44%) no-repeat;
+  scroll-behavior: smooth;
 
 }
 
@@ -43,4 +44,13 @@ img {
   max-width: 1200px;
   height: 4208px;
   margin: 0 auto;
+}
+
+.subheading {
+  font-size: 9rem;
+  word-break: break-all;
+  width: 3ch;
+  line-height: 1;
+  font-weight: bold;
+  text-transform: uppercase;
 }

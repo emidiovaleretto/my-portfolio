@@ -30,15 +30,16 @@
 }
 
 .heading-nav .btn__cta {
-  background: #FF4C29;
+  background: #FE2B02;
   padding: 10px 20px;
   border-radius: 4px;
-  color: #000E18;
+  color: #000E18 !important;
   font-weight: bold;
 }
 
 .heading-nav .btn__cta:hover {
-  background: #E84D31;
+  background: #D62707;
+  border-bottom: none;
 }
 
 @media (max-width: 900px) {

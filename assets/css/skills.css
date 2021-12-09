@@ -1,0 +1,39 @@
+.skills {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 100px;
+  align-items: center;
+}
+
+.skills .subheading {
+  color: #0B263A;
+  margin-left: 80px;
+}
+
+.skills-languages h3 {
+  margin-top: 50px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FCFCFD;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-content: flex-start;
+  background: rgba(6, 28, 44, 1);
+  margin-top: 20px;
+  padding: 40px 20px 40px 40px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.skills-list li {
+  flex: 1 0 30%;
+  font-size: 1.125rem;
+  font-weight: normal;
+  color: #FCFCFD;
+  padding: 10px;
+}
