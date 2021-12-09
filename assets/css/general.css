@@ -54,3 +54,11 @@ img {
   font-weight: bold;
   text-transform: uppercase;
 }
+
+@media (max-width: 800px) {
+  .subheading {
+    font-size: 3rem;
+    text-transform: capitalize;
+    word-break: unset;
+  }
+}
