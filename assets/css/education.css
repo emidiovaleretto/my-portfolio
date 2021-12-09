@@ -1,0 +1,124 @@
+.education {
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.education .subheading {
+  color: #082032;
+  grid-column: 2;
+  width: 4ch;
+}
+
+.education-container {
+  grid-row: 1;
+  margin-left: 80px;
+}
+
+.education-text {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 43ch;
+  margin-bottom: 60px;
+  color: #C4C4C4;
+}
+
+.education-text strong {
+  color: #ffffff;
+}
+
+.education-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 80px;
+}
+
+.education-item {
+  flex: 1;
+  background: rgba(6, 28, 44, 1);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.education-level {
+  font-size: .875rem;
+  text-transform: uppercase;
+  color: #6D96B0;
+  margin-bottom: 10px;
+}
+
+.education-course {
+  flex: 1;
+  font-size: 1.125rem;
+  line-height: 1.4;
+  color: #FCFCFD;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.education-course::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 30px;
+  background: linear-gradient(180deg, #FF360F 0%, #FF833E 100%);
+  position: absolute;
+  left: -25px;
+}
+
+.education-college {
+  font-size: 1.125rem;
+  color: #6D96B0;
+}
+
+.courses {
+  margin-bottom: 50px;
+}
+
+.education-extra h3 {
+  font-size: .875rem;
+  line-height: 1.4;
+  color: #6D96B0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.education-extra h3::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: -36px;
+  top: -4px;
+}
+
+.courses h3::before {
+  background: url("../img/courses-icon.svg") no-repeat center center;
+}
+
+.languages h3::before {
+  background: url("../img/language-icon.svg") no-repeat center center;
+}
+
+.education-extra li {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.education-extra span {
+  color: #717171;
+}
+
+.courses li {
+  display: flex;
+  justify-content: space-between;
+}
