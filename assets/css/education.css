@@ -122,3 +122,33 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 1080px) {
+  .education {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
+}
+
+@media (max-width: 800px) {
+  .education {
+    grid-template-columns: 1fr;
+    margin: 60px;
+    gap: 40px;
+    position: relative;
+  }
+
+  .education-container {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .education .subheading {
+    color: #FCFCFD;
+    grid-column: 1;
+    position: absolute;
+    top: -30px;
+    left: -60px;
+
+  }
+}

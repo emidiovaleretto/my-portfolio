@@ -65,4 +65,8 @@
   .skills-languages h3 {
     display: none;
   }
+
+  .skills-list {
+    background: none;
+  }
 }
