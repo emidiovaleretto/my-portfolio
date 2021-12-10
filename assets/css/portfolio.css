@@ -3,11 +3,12 @@
 }
 
 .frame {
-  position: relative;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin-bottom: 100px;
+  position: relative;
 }
 
 .laptop {
