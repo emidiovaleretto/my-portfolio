@@ -1,0 +1,45 @@
+.portfolio {
+  margin-top: 200px;
+}
+
+.frame {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.laptop {
+  background: url("/assets/img/project-1-desktop.png") no-repeat center center;
+  background-size: 820px 540px;
+}
+
+.mobile {
+  background: url("/assets/img/project-1-mobile.png") no-repeat center 30px;
+  background-size: 180px 370px;
+  position: absolute;
+  bottom: -60px;
+  right: 30px;
+}
+
+.portfolio-label {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.portfolio-label-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio-label-list li {
+  font-size: 1.125rem;
+  color: #717171
+}
+
+.portfolio-label-list .active {
+  color: #DEDEDE;
+  font-weight: bold;
+  border-bottom: 4px solid #FE2B02;
+}
