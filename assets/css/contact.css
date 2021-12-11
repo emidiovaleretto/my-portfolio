@@ -1,0 +1,21 @@
+.contact {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+
+.btn-contact {
+  font-size: 2rem;
+  padding: 15px 20px;
+  border: 1px solid #B21E04;
+  border-radius: 4px;
+}
+
+.btn-contact:hover {
+  background-color: #FE2B02;
+  color: #fff;
+}
