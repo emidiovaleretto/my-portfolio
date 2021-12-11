@@ -19,3 +19,12 @@
   background-color: #FE2B02;
   color: #fff;
 }
+
+.divider {
+  background: linear-gradient(180deg, #FF360F 0%, #FF833E 100%);
+  opacity: 0.1;
+  width: 1000px;
+  height: 1px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
