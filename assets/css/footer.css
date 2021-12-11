@@ -54,3 +54,22 @@
   text-align: center;
   padding: 20px;
 }
+
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .footer-details {
+    text-align: center;
+  }
+
+  .footer-details img {
+    margin: 0 auto;
+  }
+
+  .footer-details span::before {
+    display: none;
+  }
+}
