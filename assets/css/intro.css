@@ -59,13 +59,13 @@
   color: #6D96B0;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1008px) {
   .intro h1 {
     font-size: 3.5rem;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 641px) and (min-width: 1007px) {
   .intro {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -76,13 +76,13 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 640px) {
   .intro {
     grid-template-columns: 1fr;
     gap: 20px;
   }
 
   .intro img {
-    display: none;
+    grid-column: 1 / -1;
   }
 }

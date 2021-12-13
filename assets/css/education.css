@@ -149,6 +149,9 @@
     position: absolute;
     top: -30px;
     left: -60px;
+  }
 
+  .education-list {
+    flex-direction: column;
   }
 }
