@@ -34,7 +34,7 @@
   justify-content: space-between;
 }
 
-.portfolio-label-list li {
+.portfolio-label-list a {
   font-size: 1.125rem;
   color: #717171
 }
@@ -43,4 +43,8 @@
   color: #DEDEDE;
   font-weight: bold;
   border-bottom: 4px solid #FE2B02;
+}
+
+.portfolio-label-list a:hover {
+  color: #DEDEDE;
 }
