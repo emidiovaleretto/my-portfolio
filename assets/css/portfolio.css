@@ -3,25 +3,18 @@
 }
 
 .frame {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
-  margin-bottom: 100px;
   position: relative;
+  padding: 0 30px;
+  margin-bottom: 100px;
 }
 
-.laptop {
-  background: url("../img/project-1-desktop.png") no-repeat center center;
-  background-size: 820px 540px;
-}
-
-.mobile {
-  background: url("../img/project-1-mobile.png") no-repeat center 30px;
-  background-size: 180px 370px;
+.frame-mobile {
   position: absolute;
   bottom: -60px;
-  right: 30px;
+  right: 100px;
 }
 
 .portfolio-label {
@@ -47,4 +40,11 @@
 
 .portfolio-label-list a:hover {
   color: #DEDEDE;
+}
+
+@media (max-width: 640px) {
+
+  .portfolio-label-list {
+    display: none;
+  }
 }
