@@ -5,6 +5,7 @@
   gap: 80px;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 
 .about-me h2 {
@@ -16,7 +17,29 @@
 
 .about-me-container {
   grid-row: 2;
-  margin: 0 auto;
+  margin: 0 80px;
+}
+
+.about-me-container h3::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 0;
+  left: -28px;
+}
+
+.what-i-do h3::before {
+  background: url("../img/question-icon.svg") no-repeat center;
+}
+
+.how-i-do-it h3::before {
+  background: url("../img/thumb-up-icon.svg") no-repeat center;
+}
+
+.why-hire-me h3::before {
+  background: url("../img/bolt-icon.svg") no-repeat center;
 }
 
 .about-me-text {
@@ -51,7 +74,7 @@
   font-size: 1.125rem;
   line-height: 1.4;
   color: #6D96B0;
-  margin-bottom: 10px;
+  margin: 0 0 10px 30px;
   position: relative;
 }
 
@@ -71,8 +94,7 @@
   }
 
   .about-me-container {
-    margin-left: 0;
-    margin-top: 60px;
+    margin: 0 auto;
   }
 
   .about-me .subheading {
