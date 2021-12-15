@@ -42,7 +42,26 @@
   color: #DEDEDE;
 }
 
+@media (min-width: 641px) and (max-width: 900px) {
+  .portfolio-label-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
 @media (max-width: 640px) {
+  .frame {
+    justify-items: center;
+  }
+
+  .frame-laptop {
+    display: none;
+  }
+
+  .frame-mobile {
+    position: initial;
+  }
 
   .portfolio-label-list {
     display: none;
