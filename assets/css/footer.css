@@ -59,6 +59,7 @@
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    margin-top: 80px;
   }
 
   .footer-details {
