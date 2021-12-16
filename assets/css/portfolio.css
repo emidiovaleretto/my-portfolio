@@ -3,22 +3,33 @@
 }
 
 .frame {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  padding: 0 20px;
   position: relative;
-  padding: 0 30px;
   margin-bottom: 100px;
 }
 
-.frame-mobile {
+img.laptop {
+  width: 90%;
+  height: auto;
+  background: url("../img/project-1-desktop.png") no-repeat center center;
+  background-size: 80% 95%;
+}
+
+img.mobile {
+  width: 20%;
   position: absolute;
-  bottom: -60px;
-  right: 80px;
+  bottom: -40px;
+  right: 60px;
+  background: url("../img/project-1-mobile.png") no-repeat center center;
+  background-size: 90% 95%;
 }
 
 .portfolio-label {
-  width: 800px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -51,15 +62,16 @@
 }
 
 @media (max-width: 640px) {
-  .frame {
-    justify-items: center;
+  .portfolio {
+    margin-top: 100px;
   }
 
-  .frame-laptop {
+  .laptop {
     display: none;
   }
 
-  .frame-mobile {
+  img.mobile {
+    width: 90%;
     position: initial;
   }
 
